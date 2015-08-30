@@ -1,0 +1,290 @@
+:root {
+
+  /* ==========  Color Palettes  ========== */
+
+  --atom-Color-red-50: #ffebee;
+  --atom-Color-red-100: #ffcdd2;
+  --atom-Color-red-200: #ef9a9a;
+  --atom-Color-red-300: #e57373;
+  --atom-Color-red-400: #ef5350;
+  --atom-Color-red-500: #f44336;
+  --atom-Color-red-600: #e53935;
+  --atom-Color-red-700: #d32f2f;
+  --atom-Color-red-800: #c62828;
+  --atom-Color-red-900: #b71c1c;
+  --atom-Color-red-a100: #ff8a80;
+  --atom-Color-red-a200: #ff5252;
+  --atom-Color-red-a400: #ff1744;
+  --atom-Color-red-a700: #d50000;
+
+  --atom-Color-pink-50: #fce4ec;
+  --atom-Color-pink-100: #f8bbd0;
+  --atom-Color-pink-200: #f48fb1;
+  --atom-Color-pink-300: #f06292;
+  --atom-Color-pink-400: #ec407a;
+  --atom-Color-pink-500: #e91e63;
+  --atom-Color-pink-600: #d81b60;
+  --atom-Color-pink-700: #c2185b;
+  --atom-Color-pink-800: #ad1457;
+  --atom-Color-pink-900: #880e4f;
+  --atom-Color-pink-a100: #ff80ab;
+  --atom-Color-pink-a200: #ff4081;
+  --atom-Color-pink-a400: #f50057;
+  --atom-Color-pink-a700: #c51162;
+
+  --atom-Color-purple-50: #f3e5f5;
+  --atom-Color-purple-100: #e1bee7;
+  --atom-Color-purple-200: #ce93d8;
+  --atom-Color-purple-300: #ba68c8;
+  --atom-Color-purple-400: #ab47bc;
+  --atom-Color-purple-500: #9c27b0;
+  --atom-Color-purple-600: #8e24aa;
+  --atom-Color-purple-700: #7b1fa2;
+  --atom-Color-purple-800: #6a1b9a;
+  --atom-Color-purple-900: #4a148c;
+  --atom-Color-purple-a100: #ea80fc;
+  --atom-Color-purple-a200: #e040fb;
+  --atom-Color-purple-a400: #d500f9;
+  --atom-Color-purple-a700: #aa00ff;
+
+  --atom-Color-deep-purple-50: #ede7f6;
+  --atom-Color-deep-purple-100: #d1c4e9;
+  --atom-Color-deep-purple-200: #b39ddb;
+  --atom-Color-deep-purple-300: #9575cd;
+  --atom-Color-deep-purple-400: #7e57c2;
+  --atom-Color-deep-purple-500: #673ab7;
+  --atom-Color-deep-purple-600: #5e35b1;
+  --atom-Color-deep-purple-700: #512da8;
+  --atom-Color-deep-purple-800: #4527a0;
+  --atom-Color-deep-purple-900: #311b92;
+  --atom-Color-deep-purple-a100: #b388ff;
+  --atom-Color-deep-purple-a200: #7c4dff;
+  --atom-Color-deep-purple-a400: #651fff;
+  --atom-Color-deep-purple-a700: #6200ea;
+
+  --atom-Color-indigo-50: #e8eaf6;
+  --atom-Color-indigo-100: #c5cae9;
+  --atom-Color-indigo-200: #9fa8da;
+  --atom-Color-indigo-300: #7986cb;
+  --atom-Color-indigo-400: #5c6bc0;
+  --atom-Color-indigo-500: #3f51b5;
+  --atom-Color-indigo-600: #3949ab;
+  --atom-Color-indigo-700: #303f9f;
+  --atom-Color-indigo-800: #283593;
+  --atom-Color-indigo-900: #1a237e;
+  --atom-Color-indigo-a100: #8c9eff;
+  --atom-Color-indigo-a200: #536dfe;
+  --atom-Color-indigo-a400: #3d5afe;
+  --atom-Color-indigo-a700: #304ffe;
+
+  --atom-Color-blue-50: #e3f2fd;
+  --atom-Color-blue-100: #bbdefb;
+  --atom-Color-blue-200: #90caf9;
+  --atom-Color-blue-300: #64b5f6;
+  --atom-Color-blue-400: #42a5f5;
+  --atom-Color-blue-500: #2196f3;
+  --atom-Color-blue-600: #1e88e5;
+  --atom-Color-blue-700: #1976d2;
+  --atom-Color-blue-800: #1565c0;
+  --atom-Color-blue-900: #0d47a1;
+  --atom-Color-blue-a100: #82b1ff;
+  --atom-Color-blue-a200: #448aff;
+  --atom-Color-blue-a400: #2979ff;
+  --atom-Color-blue-a700: #2962ff;
+
+  --atom-Color-light-blue-50: #e1f5fe;
+  --atom-Color-light-blue-100: #b3e5fc;
+  --atom-Color-light-blue-200: #81d4fa;
+  --atom-Color-light-blue-300: #4fc3f7;
+  --atom-Color-light-blue-400: #29b6f6;
+  --atom-Color-light-blue-500: #03a9f4;
+  --atom-Color-light-blue-600: #039be5;
+  --atom-Color-light-blue-700: #0288d1;
+  --atom-Color-light-blue-800: #0277bd;
+  --atom-Color-light-blue-900: #01579b;
+  --atom-Color-light-blue-a100: #80d8ff;
+  --atom-Color-light-blue-a200: #40c4ff;
+  --atom-Color-light-blue-a400: #00b0ff;
+  --atom-Color-light-blue-a700: #0091ea;
+
+  --atom-Color-cyan-50: #e0f7fa;
+  --atom-Color-cyan-100: #b2ebf2;
+  --atom-Color-cyan-200: #80deea;
+  --atom-Color-cyan-300: #4dd0e1;
+  --atom-Color-cyan-400: #26c6da;
+  --atom-Color-cyan-500: #00bcd4;
+  --atom-Color-cyan-600: #00acc1;
+  --atom-Color-cyan-700: #0097a7;
+  --atom-Color-cyan-800: #00838f;
+  --atom-Color-cyan-900: #006064;
+  --atom-Color-cyan-a100: #84ffff;
+  --atom-Color-cyan-a200: #18ffff;
+  --atom-Color-cyan-a400: #00e5ff;
+  --atom-Color-cyan-a700: #00b8d4;
+
+  --atom-Color-teal-50: #e0f2f1;
+  --atom-Color-teal-100: #b2dfdb;
+  --atom-Color-teal-200: #80cbc4;
+  --atom-Color-teal-300: #4db6ac;
+  --atom-Color-teal-400: #26a69a;
+  --atom-Color-teal-500: #009688;
+  --atom-Color-teal-600: #00897b;
+  --atom-Color-teal-700: #00796b;
+  --atom-Color-teal-800: #00695c;
+  --atom-Color-teal-900: #004d40;
+  --atom-Color-teal-a100: #a7ffeb;
+  --atom-Color-teal-a200: #64ffda;
+  --atom-Color-teal-a400: #1de9b6;
+  --atom-Color-teal-a700: #00bfa5;
+
+  --atom-Color-green-50: #e8f5e9;
+  --atom-Color-green-100: #c8e6c9;
+  --atom-Color-green-200: #a5d6a7;
+  --atom-Color-green-300: #81c784;
+  --atom-Color-green-400: #66bb6a;
+  --atom-Color-green-500: #4caf50;
+  --atom-Color-green-600: #43a047;
+  --atom-Color-green-700: #388e3c;
+  --atom-Color-green-800: #2e7d32;
+  --atom-Color-green-900: #1b5e20;
+  --atom-Color-green-a100: #b9f6ca;
+  --atom-Color-green-a200: #69f0ae;
+  --atom-Color-green-a400: #00e676;
+  --atom-Color-green-a700: #00c853;
+
+  --atom-Color-light-green-50: #f1f8e9;
+  --atom-Color-light-green-100: #dcedc8;
+  --atom-Color-light-green-200: #c5e1a5;
+  --atom-Color-light-green-300: #aed581;
+  --atom-Color-light-green-400: #9ccc65;
+  --atom-Color-light-green-500: #8bc34a;
+  --atom-Color-light-green-600: #7cb342;
+  --atom-Color-light-green-700: #689f38;
+  --atom-Color-light-green-800: #558b2f;
+  --atom-Color-light-green-900: #33691e;
+  --atom-Color-light-green-a100: #ccff90;
+  --atom-Color-light-green-a200: #b2ff59;
+  --atom-Color-light-green-a400: #76ff03;
+  --atom-Color-light-green-a700: #64dd17;
+
+  --atom-Color-lime-50: #f9fbe7;
+  --atom-Color-lime-100: #f0f4c3;
+  --atom-Color-lime-200: #e6ee9c;
+  --atom-Color-lime-300: #dce775;
+  --atom-Color-lime-400: #d4e157;
+  --atom-Color-lime-500: #cddc39;
+  --atom-Color-lime-600: #c0ca33;
+  --atom-Color-lime-700: #afb42b;
+  --atom-Color-lime-800: #9e9d24;
+  --atom-Color-lime-900: #827717;
+  --atom-Color-lime-a100: #f4ff81;
+  --atom-Color-lime-a200: #eeff41;
+  --atom-Color-lime-a400: #c6ff00;
+  --atom-Color-lime-a700: #aeea00;
+
+  --atom-Color-yellow-50: #fffde7;
+  --atom-Color-yellow-100: #fff9c4;
+  --atom-Color-yellow-200: #fff59d;
+  --atom-Color-yellow-300: #fff176;
+  --atom-Color-yellow-400: #ffee58;
+  --atom-Color-yellow-500: #ffeb3b;
+  --atom-Color-yellow-600: #fdd835;
+  --atom-Color-yellow-700: #fbc02d;
+  --atom-Color-yellow-800: #f9a825;
+  --atom-Color-yellow-900: #f57f17;
+  --atom-Color-yellow-a100: #ffff8d;
+  --atom-Color-yellow-a200: #ffff00;
+  --atom-Color-yellow-a400: #ffea00;
+  --atom-Color-yellow-a700: #ffd600;
+
+  --atom-Color-amber-50: #fff8e1;
+  --atom-Color-amber-100: #ffecb3;
+  --atom-Color-amber-200: #ffe082;
+  --atom-Color-amber-300: #ffd54f;
+  --atom-Color-amber-400: #ffca28;
+  --atom-Color-amber-500: #ffc107;
+  --atom-Color-amber-600: #ffb300;
+  --atom-Color-amber-700: #ffa000;
+  --atom-Color-amber-800: #ff8f00;
+  --atom-Color-amber-900: #ff6f00;
+  --atom-Color-amber-a100: #ffe57f;
+  --atom-Color-amber-a200: #ffd740;
+  --atom-Color-amber-a400: #ffc400;
+  --atom-Color-amber-a700: #ffab00;
+
+  --atom-Color-orange-50: #fff3e0;
+  --atom-Color-orange-100: #ffe0b2;
+  --atom-Color-orange-200: #ffcc80;
+  --atom-Color-orange-300: #ffb74d;
+  --atom-Color-orange-400: #ffa726;
+  --atom-Color-orange-500: #ff9800;
+  --atom-Color-orange-600: #fb8c00;
+  --atom-Color-orange-700: #f57c00;
+  --atom-Color-orange-800: #ef6c00;
+  --atom-Color-orange-900: #e65100;
+  --atom-Color-orange-a100: #ffd180;
+  --atom-Color-orange-a200: #ffab40;
+  --atom-Color-orange-a400: #ff9100;
+  --atom-Color-orange-a700: #ff6500;
+
+  --atom-Color-deep-orange-50: #fbe9e7;
+  --atom-Color-deep-orange-100: #ffccbc;
+  --atom-Color-deep-orange-200: #ffab91;
+  --atom-Color-deep-orange-300: #ff8a65;
+  --atom-Color-deep-orange-400: #ff7043;
+  --atom-Color-deep-orange-500: #ff5722;
+  --atom-Color-deep-orange-600: #f4511e;
+  --atom-Color-deep-orange-700: #e64a19;
+  --atom-Color-deep-orange-800: #d84315;
+  --atom-Color-deep-orange-900: #bf360c;
+  --atom-Color-deep-orange-a100: #ff9e80;
+  --atom-Color-deep-orange-a200: #ff6e40;
+  --atom-Color-deep-orange-a400: #ff3d00;
+  --atom-Color-deep-orange-a700: #dd2c00;
+
+  --atom-Color-brown-50: #efebe9;
+  --atom-Color-brown-100: #d7ccc8;
+  --atom-Color-brown-200: #bcaaa4;
+  --atom-Color-brown-300: #a1887f;
+  --atom-Color-brown-400: #8d6e63;
+  --atom-Color-brown-500: #795548;
+  --atom-Color-brown-600: #6d4c41;
+  --atom-Color-brown-700: #5d4037;
+  --atom-Color-brown-800: #4e342e;
+  --atom-Color-brown-900: #3e2723;
+
+  --atom-Color-grey-50: #fafafa;
+  --atom-Color-grey-100: #f5f5f5;
+  --atom-Color-grey-200: #eeeeee;
+  --atom-Color-grey-300: #e0e0e0;
+  --atom-Color-grey-400: #bdbdbd;
+  --atom-Color-grey-500: #9e9e9e;
+  --atom-Color-grey-600: #757575;
+  --atom-Color-grey-700: #616161;
+  --atom-Color-grey-800: #424242;
+  --atom-Color-grey-900: #212121;
+
+  --atom-Color-blue-grey-50: #eceff1;
+  --atom-Color-blue-grey-100: #cfd8dc;
+  --atom-Color-blue-grey-200: #b0bec5;
+  --atom-Color-blue-grey-300: #90a4ae;
+  --atom-Color-blue-grey-400: #78909c;
+  --atom-Color-blue-grey-500: #607d8b;
+  --atom-Color-blue-grey-600: #546e7a;
+  --atom-Color-blue-grey-700: #455a64;
+  --atom-Color-blue-grey-800: #37474f;
+  --atom-Color-blue-grey-900: #263238;
+
+  /* opacity for dark text on a light background */
+  --atom-Color-dark-divider-opacity: 0.12;
+  --atom-Color-dark-disabled-opacity: 0.26; /* or hint text */
+  --atom-Color-dark-secondary-opacity: 0.54; /* or icon */
+  --atom-Color-dark-primary-opacity: 0.87;
+
+  /* opacity for light text on a dark background */
+  --atom-Color-light-divider-opacity: 0.12;
+  --atom-Color-light-disabled-opacity: 0.3; /* or hint text */
+  --atom-Color-light-secondary-opacity: 0.7; /* or icon */
+  --atom-Color-light-primary-opacity: 1.0;
+
+}
